@@ -27,20 +27,13 @@ menu {
     clear: both;
 }
 
-.container h1 {
-    padding: 40px 0;
-    text-align: center;
-    font-weight: bold;
-    color: #e53574;
-}
-
 /* Debug - TODO: rimuovere */
 /* html {
     height: 100%;
     background-color: aqua;
 } */
 
-.debug {
+/* .debug {
     background-color: violet;
     border: 3px solid black;
 }
@@ -51,9 +44,21 @@ main .container.debug {
 
 .col.debug {
     background-color: antiquewhite;
-}
+} */
 
 /* TODO: FIne */
+
+/* Header */
+header .container * {
+    text-align: center;
+}
+
+header .container h1 {
+    padding: 40px 0;
+    font-weight: bold;
+    color: #e53574;
+}
+
 .row {
     margin: 0 -15px;
 }
