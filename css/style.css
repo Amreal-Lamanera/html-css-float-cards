@@ -21,6 +21,12 @@ menu {
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .container h1 {
     padding: 40px 0;
     text-align: center;
@@ -56,18 +62,36 @@ main .container.debug {
     float: left;
     width: calc(100% / 3);
     padding: 20px 15px;
-    height: 200px;
 }
 
-.card img {
+.card {
+    background-color: #000;
+    color: #FFF;
+}
+
+.card-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card .card__image {
     float: left;
-    height: 90px;
-    width: 90px;
-    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
 }
 
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
+.card .card__name {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.card .card__role,
+.card .card__email {
+    font-size: 0.7em;
+}
+
+.card .card__email {
+    color: #46C9EC;
+    display: block;
 }
