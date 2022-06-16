@@ -116,4 +116,5 @@ section.container {
 .card .card__email {
     color: #46C9EC;
     display: block;
+    text-decoration: none;
 }
