@@ -42,3 +42,18 @@ html {
 main .container.debug {
     height: 500px;
 }
+
+.col.debug {
+    background-color: antiquewhite;
+}
+
+/* TODO: FIne */
+.row {
+    margin: 0 -15px;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+    padding: 20px 15px;
+}
