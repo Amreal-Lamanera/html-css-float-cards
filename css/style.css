@@ -75,13 +75,13 @@ header .container h1 {
     box-shadow: 0 0 5px #000;
 }
 
-.card-info {
+.card .card__image,
+.card .card-info {
     display: inline-block;
     vertical-align: middle;
 }
 
 .card .card__image {
-    float: left;
     height: 70px;
     width: 70px;
     margin-right: 10px;
