@@ -65,7 +65,7 @@ header .container p {
 
 /* Main */
 
-main .container {
+section.container {
     padding: 20px;
 }
 
