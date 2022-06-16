@@ -85,6 +85,8 @@ section.container {
     background-color: #000;
     color: #FFF;
     box-shadow: 0 0 5px #000;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .card-info {
