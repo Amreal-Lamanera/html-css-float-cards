@@ -66,9 +66,10 @@ header .container p {
 /* Main */
 
 section.container {
-    padding: 20px;
+    padding: 40px;
 }
 
+/* Gestione float con padding e le classi col e row */
 .row {
     margin: 0 -15px;
 }
@@ -76,13 +77,18 @@ section.container {
 .col {
     float: left;
     width: calc(100% / 3);
-    padding: 20px 15px;
+    padding: 0 15px;
+    margin-bottom: 30px;
 }
 
 .card {
     background-color: #000;
     color: #FFF;
     box-shadow: 0 0 5px #000;
+}
+
+.card-info {
+    line-height: 20px;
 }
 
 .card .card__image,
