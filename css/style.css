@@ -16,8 +16,29 @@ menu {
     list-style: none;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    padding: 40px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #e53574;
+}
+
 /* Debug - TODO: rimuovere */
 html {
     height: 100%;
     background-color: aqua;
+}
+
+.debug {
+    background-color: violet;
+    border: 3px solid black;
+}
+
+main .container.debug {
+    height: 500px;
 }
