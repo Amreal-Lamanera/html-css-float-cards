@@ -19,6 +19,7 @@ menu {
 .container {
     max-width: 800px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .clearfix::after {
